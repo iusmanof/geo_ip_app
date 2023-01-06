@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h1>Geo_ip_app (Работает только с Firefox)</h1>
+<h2>Иснтрукция:</h2>
+<img src="./img/info.png" alt="how to ???" width="500"> 
+
+<main class='ramka'>
+ <input type="file" onchange="previewFile()" /><br />
+  <button onclick="copy('copyInitialID')">Копировать исходные данные</button>
+  <button onclick="copy('copyResultID')">Копировать результат</button>
+ <h2>Результат:</h2>
+ <div class="data">
+  <div class="initial" id="copyInitialID"></div>
+  <div class="result" id="copyResultID"></div>	
+ </div>
+</main>
+
+
+<script src="index.js"></script>
+</body>
+</html>
